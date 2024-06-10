@@ -8,6 +8,8 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 
 - `<CR>`(Carriage Return) stands for `Enter` key。
 - `[]` means that it can be omitted.
+- **Narrow word**: A narrow word is a sequence of letters, numbers, and underscores separated by whitespace characters (such as spaces, tabs, or line breaks)
+- **Broad word**: A broad word is a sequence of any non-whitespace
 
 ### Navigation
 
