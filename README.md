@@ -71,7 +71,7 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 | `n`  | `d` + `Navigation`                        | Delete(cut) `Navigation` at cursor, similar to `c` + `Navigation` |
 | `n`  | `d` + `number` + `d` or `[number]` + `dd` | Delete(cut) flowing `[number]` lines                              |
 | `n`  | `yy`                                      | Copy current line                                                 |
-| `n`  | `y` + `number` + `y` Or `[number]` + `yy` | Copy following `[number]` of lines                                |
+| `n`  | `y` + `number` + `y` or `[number]` + `yy` | Copy following `[number]` of lines                                |
 | `n`  | `y` + `Navigation`                        | Copy `Navigation` at cursor, similar to `c` + `Navigation`        |
 | `n`  | `p`                                       | Paste from what you delete or copy                                |
 | `n`  | `x`                                       | Delete(cut) the character under the cursor                        |
