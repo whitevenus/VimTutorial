@@ -52,6 +52,10 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 | `n`      | `:ls`                        | View all buffers                                                       |
 | `n`      | `:b number` or `:b filename` | To buffer number or To buffer with filename                            |
 | `n`      | `:bd`                        | Exit current buffer                                                    |
+| `n`      | `:sp[lit] filename`          | Split a window vertically and open the file                            |
+| `n`      | `:vs[plit] filename`         | Split a window horizontally and open the file                          |
+| `n`      | `Ctrl w` + `h/j/k/l`         | Access to the left/top/bottom/right window                             |
+| `n`      | `Ctrl w` + `q`               | Close current window                                                   |
 
 ### Enter `Insert` Mode from `NORMAL` Mode
 
