@@ -1,4 +1,4 @@
-# VimTutorial
+# Mastering Vim
 
 ## Vim Shortcuts
 
