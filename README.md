@@ -28,27 +28,30 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 
 ### Navigation
 
-| Mode     | Shortcut               | Description                                                            |
-| -------- | ---------------------- | ---------------------------------------------------------------------- |
-| `n`, `v` | `[number]h`            | Move left [number times]                                               |
-| `n`, `v` | `[number]j`            | Move down [number times]                                               |
-| `n`, `v` | `[number]k`            | Move up [number times]                                                 |
-| `n`, `v` | `[number]l`            | Move right [number times]                                              |
-| `n`, `v` | `[number]w`            | Move a narrow word forward to the begining of the word [number times]  |
-| `n`, `v` | `[number]b`            | Move a narrow word backward to the begining of the word [number times] |
-| `n`, `v` | `[number]e`            | Move forward until the end of the nearest narrow word [number times]   |
-| `n`, `v` | `[number]W`            | Move a broad word forward to the begining of the word [number times]   |
-| `n`, `v` | `[number]B`            | Move a broad word backward to the begining of the word [number times]  |
-| `n`, `v` | `[number]E`            | Move forward until the end of the nearest broad word [number times]    |
-| `n`, `v` | `[number]{`            | Move a paragraph backward [number times]                               |
-| `n`, `v` | `[number]}`            | Move a paragraph forward [number times]                                |
-| `n`, `v` | `[number]E`            | Move forward until the end of the nearest broad word [number times]    |
-| `n`, `v` | `Ctrl`+`u`             | Move Up half a Page                                                    |
-| `n`, `v` | `Ctrl`+`d`             | Move Down half a Page                                                  |
-| `n`, `v` | `Ctrl`+`b`             | Move Up a Full Page                                                    |
-| `n`, `v` | `Ctrl`+`f`             | Move Down a Full Page                                                  |
-| `n`      | `/<pattern>`<CR> + `n` | Forward search pattern and go to next match                            |
-| `n`      | `?<pattern>`<CR> + `n` | Backward search pattern and go to next match                           |
+| Mode     | Shortcut                     | Description                                                            |
+| -------- | ---------------------------- | ---------------------------------------------------------------------- |
+| `n`, `v` | `[number]h`                  | Move left [number times]                                               |
+| `n`, `v` | `[number]j`                  | Move down [number times]                                               |
+| `n`, `v` | `[number]k`                  | Move up [number times]                                                 |
+| `n`, `v` | `[number]l`                  | Move right [number times]                                              |
+| `n`, `v` | `[number]w`                  | Move a narrow word forward to the begining of the word [number times]  |
+| `n`, `v` | `[number]b`                  | Move a narrow word backward to the begining of the word [number times] |
+| `n`, `v` | `[number]e`                  | Move forward until the end of the nearest narrow word [number times]   |
+| `n`, `v` | `[number]W`                  | Move a broad word forward to the begining of the word [number times]   |
+| `n`, `v` | `[number]B`                  | Move a broad word backward to the begining of the word [number times]  |
+| `n`, `v` | `[number]E`                  | Move forward until the end of the nearest broad word [number times]    |
+| `n`, `v` | `[number]{`                  | Move a paragraph backward [number times]                               |
+| `n`, `v` | `[number]}`                  | Move a paragraph forward [number times]                                |
+| `n`, `v` | `[number]E`                  | Move forward until the end of the nearest broad word [number times]    |
+| `n`, `v` | `Ctrl`+`u`                   | Move Up half a Page                                                    |
+| `n`, `v` | `Ctrl`+`d`                   | Move Down half a Page                                                  |
+| `n`, `v` | `Ctrl`+`b`                   | Move Up a Full Page                                                    |
+| `n`, `v` | `Ctrl`+`f`                   | Move Down a Full Page                                                  |
+| `n`      | `/<pattern>`<CR> + `n`       | Forward search pattern and go to next match                            |
+| `n`      | `?<pattern>`<CR> + `n`       | Backward search pattern and go to next match                           |
+| `n`      | `:ls`                        | View all buffers                                                       |
+| `n`      | `:b number` or `:b filename` | To buffer number or To buffer with filename                            |
+| `n`      | `:bd`                        | Exit current buffer                                                    |
 
 ### Enter `Insert` Mode from `NORMAL` Mode
 
