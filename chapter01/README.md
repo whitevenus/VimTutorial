@@ -11,7 +11,7 @@ brew upgrade vim # 更新vim
 ```zsh
 echo $HOME
 ```
-
+配置文件位置: `/home/<username>/.vimrc`
 
 ## 常用操作
 - 
