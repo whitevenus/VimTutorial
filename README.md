@@ -24,7 +24,7 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 | `n`  | `:q!`<CR>                | Exit current file without saving                       |
 | `n`  | `:qa`<CR>                | Exit all file(would fail if you don't save first)      |
 | `n`  | `:qa!`<CR>               | Exit all file without saving                           |
-| `n`  | `:wqa`<CR>               | Save and exit all open file                            |
+| `n`  | `:wqa`<CR>               | Save and colse all open file                           |
 
 ### Navigation
 
@@ -58,13 +58,18 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 
 ### Edit in `NORMAL` Mode
 
-| Mode | Shortcut                                | Description                                                       |
-| ---- | --------------------------------------- | ----------------------------------------------------------------- |
-| `n`  | `dd`                                    | Delete(cut) current line                                          |
-| `n`  | `d` + `Navigation`                      | Delete(cut) `Navigation` at cursor, similar to `c` + `Navigation` |
-| `n`  | `d` + `number` + `d` or `number` + `dd` | Delete(cut) flowing `number` lines                                |
-| `n`  | `u`                                     | Undo changes                                                      |
-| `n`  | `Ctrl`+`r`                              | Redo changes                                                      |
-| `n`  |
-| `n`  |
+| Mode | Shortcut                                  | Description                                                       |
+| ---- | ----------------------------------------- | ----------------------------------------------------------------- |
+| `n`  | `dd`                                      | Delete(cut) current line                                          |
+| `n`  | `d` + `Navigation`                        | Delete(cut) `Navigation` at cursor, similar to `c` + `Navigation` |
+| `n`  | `d` + `number` + `d` or `[number]` + `dd` | Delete(cut) flowing `[number]` lines                              |
+| `n`  | `yy`                                      | Copy current line                                                 |
+| `n`  | `y` + `number` + `y` Or `[number]` + `yy` | Copy following `[number]` of lines                                |
+| `n`  | `y` + `Navigation`                        | Copy `Navigation` at cursor, similar to `c` + `Navigation`        |
+| `n`  | `p`                                       | Paste from what you delete or copy                                |
+| `n`  | `x`                                       | Delete(cut) the character under the cursor                        |
+| `n`  | `u`                                       | Undo changes                                                      |
+| `n`  | `Ctrl`+`r`                                | Redo changes                                                      |
+| `n`  | `/`                                       | Forward search                                                    |
+| `n`  | `?`                                       | Backward search                                                   |
 | `n`  |
