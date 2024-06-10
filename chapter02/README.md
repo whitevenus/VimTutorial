@@ -11,9 +11,11 @@ silent! helptags ALL     " 为所有插件加载帮助文档
 
 ## 组织工作区
 
-- 缓冲区: `:ls`, 插件:[unimpaired](https://github.com/tpope/vim-unimpaired)——提供更直观的按键映射。
-- 屏幕中的窗口
-- 标签页
-- 自动折叠
+**缓冲区**: `:ls`, 插件:
+- [unimpaired](https://github.com/tpope/vim-unimpaired)——提供更直观的按键映射。
+
+**屏幕中的窗口**: 
+**标签页**:
+**自动折叠**:
 
 
