@@ -80,3 +80,7 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 | `n`  | `x`                                       | Delete(cut) the character under the cursor                        |
 | `n`  | `u`                                       | Undo changes                                                      |
 | `n`  | `Ctrl`+`r`                                | Redo changes                                                      |
+
+## Plugins
+
+- [unimpaired](https://github.com/tpope/vim-unimpaired)：Provide more intuitive key-mapping
