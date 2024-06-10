@@ -13,15 +13,18 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 
 ### Navigation
 
-| Mode | Shortcut    | Description                                   |
-| ---- | ----------- | --------------------------------------------- |
-| `n`  | `[number]h` | Move left [number times]                      |
-| `n`  | `[number]j` | Move down [number times]                      |
-| `n`  | `[number]k` | Move up [number times]                        |
-| `n`  | `[number]l` | Move right [number times]                     |
-| `n`  | `w`         | One word forward to the begining of the word  |
-| `n`  | `b`         | One word backward to the begining of the word |
-| `n`  | `e`         | Move to the end of the nearest word           |
+| Mode | Shortcut    | Description                                                          |
+| ---- | ----------- | -------------------------------------------------------------------- |
+| `n`  | `[number]h` | Move left [number times]                                             |
+| `n`  | `[number]j` | Move down [number times]                                             |
+| `n`  | `[number]k` | Move up [number times]                                               |
+| `n`  | `[number]l` | Move right [number times]                                            |
+| `n`  | `[number]w` | One narrow word forward to the begining of the word [number times]   |
+| `n`  | `[number]b` | One narrow word backward to the begining of the word [number times]  |
+| `n`  | `[number]e` | Move forward until the end of the nearest narrow word [number times] |
+| `n`  | `[number]W` | One broad word forward to the begining of the word [number times]    |
+| `n`  | `[number]B` | One broad word backward to the begining of the word [number times]   |
+| `n`  | `[number]E` | Move forward until the end of the nearest broad word [number times]  |
 
 ### Edit in `NORMAL` Mode
 
