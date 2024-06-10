@@ -10,21 +10,25 @@ Vim has three mode: `NORMAL`, `INSERT`, `VISUAL`; In the following key-mappings,
 - `[]` means that it can be omitted.
 - **Narrow word**: A narrow word is a sequence of letters, numbers, and underscores separated by whitespace characters (such as spaces, tabs, or line breaks)
 - **Broad word**: A broad word is a sequence of any non-whitespace
+- **Paragraph**: A paragraph is the text between any two blank lines
 
 ### Navigation
 
-| Mode | Shortcut    | Description                                                          |
-| ---- | ----------- | -------------------------------------------------------------------- |
-| `n`  | `[number]h` | Move left [number times]                                             |
-| `n`  | `[number]j` | Move down [number times]                                             |
-| `n`  | `[number]k` | Move up [number times]                                               |
-| `n`  | `[number]l` | Move right [number times]                                            |
-| `n`  | `[number]w` | One narrow word forward to the begining of the word [number times]   |
-| `n`  | `[number]b` | One narrow word backward to the begining of the word [number times]  |
-| `n`  | `[number]e` | Move forward until the end of the nearest narrow word [number times] |
-| `n`  | `[number]W` | One broad word forward to the begining of the word [number times]    |
-| `n`  | `[number]B` | One broad word backward to the begining of the word [number times]   |
-| `n`  | `[number]E` | Move forward until the end of the nearest broad word [number times]  |
+| Mode | Shortcut    | Description                                                            |
+| ---- | ----------- | ---------------------------------------------------------------------- |
+| `n`  | `[number]h` | Move left [number times]                                               |
+| `n`  | `[number]j` | Move down [number times]                                               |
+| `n`  | `[number]k` | Move up [number times]                                                 |
+| `n`  | `[number]l` | Move right [number times]                                              |
+| `n`  | `[number]w` | Move a narrow word forward to the begining of the word [number times]  |
+| `n`  | `[number]b` | Move a narrow word backward to the begining of the word [number times] |
+| `n`  | `[number]e` | Move forward until the end of the nearest narrow word [number times]   |
+| `n`  | `[number]W` | Move a broad word forward to the begining of the word [number times]   |
+| `n`  | `[number]B` | Move a broad word backward to the begining of the word [number times]  |
+| `n`  | `[number]E` | Move forward until the end of the nearest broad word [number times]    |
+| `n`  | `[number]{` | Move a paragraph backward [number times]                               |
+| `n`  | `[number]}` | Move a paragraph forward [number times]                                |
+| `n`  | `[number]E` | Move forward until the end of the nearest broad word [number times]    |
 
 ### Edit in `NORMAL` Mode
 
